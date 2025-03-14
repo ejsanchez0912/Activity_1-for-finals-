@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up & Login Form</title>
+    <link rel="stylesheet" href="Activity1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="form-nav">
+                <button class="switch-btn active" data-form="signup">Sign Up</button>
+                <button class="switch-btn" data-form="login">Login</button>
+            </div>
+            
+            <form id="signup-form" class="form">
+                <h2>Create Account</h2>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+
+            <form id="login-form" class="form hidden">
+                <h2>Welcome Back</h2>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+    <script src="Activity1.js"></script>
+</body>
+</html>
